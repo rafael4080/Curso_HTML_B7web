@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Fildset e Legend  recap .css">
+  <title>Fildset e legend</title>
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+          <label>
+                           Primeiro nome:
+                       <input type="text" name="texto" required  minlength="1"  maxlength="100">
+          </label>
+          <label>
+                         Segundo nome:
+                     <input type="text" name="sobrenome" required>
+         </label>
+         <label>
+          Idade minima (Maior que 18 e menor que 65)
+      <input type="number" name="idade" required min="18" max="65">
+</label>
+         <label>
+          Data do agendamento:
+      <input type="date" name="calendario" required  min="2023-04-26" max="2023-05-29">
+</label>
+   </fieldset>
+   <fieldset>
+     <legend>Dados empresarias</legend>
+         <label>
+                       Nome da empresa:
+                 <input type="text" name="empresa" required>
+           </label>
+           <label>
+                       Cargo:
+               <input type="text" name="cargo">
+           </label>
+     </fieldset>
+     <input type="submit" value="cadastrar" class="btn">
+  </form>
+  <br>
+  <br>
+  <form  action="#" method="GET"></form>
+<fieldset>
+  <legend>Dados pessoais</legend>
+          <label>
+               Primeiro nome:
+                 <input type="text" name="name" required>
+          </label>
+          <label>
+                Segundo nome:
+                  <input type="text" name="lastName" required>
+          </label>
+  </fieldset>
+  <fieldset>
+    <legend>Dados da empresa</legend>
+       <label>
+                Nome da empresa:
+                <input type="text" name="company" required>
+          </label>
+        <label>
+                Cargo:
+                <input type="text" name="companyJob">
+          </label>
+        </fieldset>
+      <input type="submit" value="Verificar">
+  </form>
+</body>
+</html>

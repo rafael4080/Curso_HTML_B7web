@@ -1,0 +1,18 @@
+table{
+     width:600px;   
+}
+th ,td{
+    padding:10px;
+}
+table thead{
+    background-color:rgb(130, 255, 47);
+    text-align: left;
+}
+table tbody{
+    background-color:grey;
+   
+}
+tbody tr:hover{
+   background-color:#eee;
+}
+

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Almarai:wght@300&family=Amatic+SC&family=Architects+Daughter&family=Asap&family=Bree+Serif&family=Castoro+Titling&family=Chilanka&family=Comfortaa:wght@700&family=Geostar&family=Geostar+Fill&family=Golos+Text&family=Libre+Franklin:ital,wght@1,100;1,400&family=Montserrat:wght@100&family=Pacifico&family=Playball&family=Playfair+Display+SC&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700&family=Shadows+Into+Light&family=Tilt+Neon&family=Yellowtail&display=swap');*{
+   background-color:black;
+   font-family: 'Roboto';
+   color:white;
+   /*padding:4px;*/
+}
+ul li{
+  list-style: circle;  /*Circle   square   none*/
+  color:blue;
+
+}
+ol li{
+  list-style: none;
+  color:red;
+}
+

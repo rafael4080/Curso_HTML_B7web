@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Fildset e Legend  recap .css">
+  <title>Validação</title>
+</head>
+<body>
+<form action="bla bla bla.php">
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+          <label>
+                           Primeiro nome:
+                       <input type="text" name="texto" required/ minlength="2" maxlength="5">
+          </label>
+          <label>
+                         Segundo nome:
+                     <input type="text" name="sobrenome" required>
+         </label>
+         <label>
+                           Idade:
+                       <input type="number" name="numero" min="18"   max="22"> <!--  step= "2 " aumenta de dois em dois-->
+        </label>
+        <label>
+                         Data:
+                     <input type="date" name="data" min="2023-04-23" max="2023-04-28">
+          </label>
+   </fieldset>
+   <fieldset>
+     <legend>Dados empresarias</legend>
+         <label>
+                       Nome da empresa:
+                 <input type="text" name="empresa" required>
+           </label>
+           <label>
+                       Cargo:
+               <input type="text" name="cargo" required>
+           </label>
+     </fieldset>
+     <input type="submit" value="cadastrar" class="btn">
+  </form>
+</body>
+</html>

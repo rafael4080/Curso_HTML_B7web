@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="input hidden .css">
+  <title>input file</title>
+</head>
+<body>
+  <!--- Enviar arquivos junto ao formuário-->
+
+       <form action="direcionamento.php"  method="POST" enctype="multipart/form-data">  
+        <!-----A opção enctype é necessário adicionar em formulário de envio de aquivo para que o servidor receba este arquivo --->
+         <!--  Arquivos N Ã O são enviados por metodos GET somente por metodos POST-->
+        
+                 <fieldset>
+               <legend>Informe seu nome completo</legend>
+             <label>
+                      Nome:
+                  <input type="text" name="nome">
+             </label>
+             <label>
+                    Sobrenome:
+                <input type="text" name="Sobrenome">
+             </label>
+             <label>
+                   Envie uma foto:
+             <!--- <input type="file" name="fotos" required accept="imagens/*"> --->  
+               <input type="file" name="fotos" required accept="application/pdf">
+             </label>
+        </fieldset>
+    <input type="submit" value="Cadastrar"> 
+       </form>
+       <br>
+       <br>
+       <form>
+            <label>
+                Nome:
+               <input type="text" name="nome">
+            </label>
+            <label>
+              Sobrenome:
+             <input type="text" name="sobrenome">
+          </label>
+          <label>
+            Arquivo:
+           <input type="file" name="arquivos" accept="imagens/*">
+           <!-- accept="application/pdf-->
+        </label>
+       </form>
+</body>
+</html>

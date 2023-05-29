@@ -1,0 +1,24 @@
+form{
+     border:1px solid red;
+     padding:10px;
+     background-color:white;
+     width: 400px;
+}
+body{
+    background-color:silver;
+}
+h1{
+    text-align: center;
+}
+h2{
+     text-align:left;
+     letter-spacing: 2px;
+}
+.title_login{
+     text-align: left;
+     letter-spacing: 8px;
+}
+.title_cadastro{
+       color:red;
+       letter-spacing: 2px;
+}

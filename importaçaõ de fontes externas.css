@@ -1,0 +1,34 @@
+*{  
+  box-sizing: border-box;
+   padding:0px;
+   font-family: 'Acme';
+ 
+}
+h1{
+     text-align:center;
+     color:red;
+     text-decoration:overline;  
+     font-size:34px;
+     text-transform:uppercase;
+     letter-spacing:10px;/*Espaçamento entre as letras*/
+     text-shadow:2px 2px 1px #ffff00;
+   
+
+}
+p{
+   color:#000fff;
+   font-size:18px;
+   font-weight:normal; /*  bolder e bold*/
+   /*font-family:sans-serif;  /*A padrão é a serif*/
+   text-align:justify;  /*left   center  justify right*/
+   line-height: 20px;
+   font-family: 'Acme',sans-serif;/*Fontes externas*/
+} 
+a {
+  text-decoration:none;/*overline ,line-through,underline*/
+  color:red;
+  font-size:20px;
+}
+a:hover{
+  text-decoration:underline;
+}

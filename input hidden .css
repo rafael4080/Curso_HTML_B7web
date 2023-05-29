@@ -1,0 +1,9 @@
+input{
+   display:block;
+}
+legend{
+    background-color: #ccc;
+    Padding:5px;
+    font-weight:bold;
+    border-radius:5px;
+}
